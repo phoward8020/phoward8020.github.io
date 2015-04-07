@@ -12,6 +12,7 @@ body {
   background: url('../images/paper-pattern.png');
   height: 100%;
   overflow: auto;
+  /* margin: 0; */
   padding: 0 8vw;
 }
 

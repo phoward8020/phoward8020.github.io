@@ -65,7 +65,9 @@ p {
 
 /* Extra-Small */
 @media (max-width: 767px) {
-
+  p {
+    font-size: 3.4vh;
+  }
 }
 
 /* Small */

@@ -12,7 +12,6 @@ body {
   background: url('../images/paper-pattern.png');
   height: 100%;
   overflow: auto;
-  /* margin: 0; */
   padding: 0 8vw;
 }
 
@@ -59,4 +58,27 @@ p {
   font-family: 'PT Sans';
   font-size: 1.4vh;
   line-height: 1.5;
+}
+
+
+/* MEDIA QUERIES */
+
+/* Extra-Small */
+@media (max-width: 767px) {
+
+}
+
+/* Small */
+@media (min-width: 768px) and (max-width: 991px) {
+
+}
+
+/* Medium */
+@media (min-width: 992px) and (max-width: 1199px) {
+
+}
+
+/* Large */
+@media (min-width: 1200px) {
+
 }

@@ -53,8 +53,9 @@ mark {
 }
 .contact-list .panel-heading {
   background: #F5A30E;
-  color: #fff;
-  text-shadow: 1px 1px 1px #888;
+  color: #222;
+  text-shadow: 1px 1px 3px #fff;
+  font-size: 20em;
 }
 .contact-list .list-group-item {
   padding: 0;
@@ -69,28 +70,32 @@ mark {
   padding: 10px 10px 10px 10px;
 }
 .contact-label {
-  margin-left: 5px;
-  font-family: 'PT Sans';
+  margin-left: 10px;
+  font-family: 'Lato';
   font-size: 1.5em;
   line-height: 1.5;
 }
 /* MEDIA QUERIES */
 /* Extra-Small */
 @media (max-width: 767px) {
-
+  .page-header {
+    background-image: none;
+  }
 }
 
 /* Small */
 @media (min-width: 768px) and (max-width: 991px) {
-  .page-header {
-    background-image: none;
-  }
+
 }
 
 /* Medium */
 @media (min-width: 992px) and (max-width: 1199px) {
   article {
     font-size: 1.8em;
+  }
+  .contact-label {
+    font-size: 1.3em;
+    line-height: 1.5;
   }
 }
 

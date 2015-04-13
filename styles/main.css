@@ -1,31 +1,43 @@
 html, body, .full-height {
   height: 100%;
 }
-
 body {
   background: url('../images/brown-background.png');
   padding: 0;
   margin: 0;
 }
-
 .container {
   background: url('../images/paper-pattern.png');
   height: 100%;
   overflow: auto;
-  padding: 0 8vw;
+  padding: 0 5%;
 }
-
+.page-header {
+  background: url("../images/avatar.png");
+  background-color: #F5A30E;
+  background-position: 98%;
+  background-origin: padding-box;
+  background-repeat: no-repeat;
+  overflow: hidden;
+  margin: 0;
+  padding: 10% 0 4% 4%;
+}
 h1 {
   font-family: 'Vollkorn';
-  font-size: 7vh;
+  font-size: 7vmax;
+  margin-bottom: 0;
+  color: #222;
+  text-shadow: 1px 1px 3px white;
 }
-
+article {
+  margin-top: 5%;
+  padding: 0 2% 0 2%;
+  font-family: 'Gentium Book Basic';
+  font-size: 3.4vmax;
+}
 p {
-  font-family: 'Old Standard TT';
-  font-size: 2.4vh;
-  line-height: 1.5;
-  padding-bottom: 25px;
-
+  line-height: 1.7;
+  padding-bottom: 3%;
   -webkit-hyphens: auto;
   -moz-hyphens: auto;
   -epub-hyphens: auto;
@@ -33,18 +45,22 @@ p {
   -o-hyphens: auto;
   hyphens: auto;
 }
-
-.contact-list .panel-heading {
-  background: orange;
-  color: #eee;
+mark {
+  background-color: #ffeebc;
 }
-
+.contact-list {
+  margin-top: 10%;
+}
+.contact-list .panel-heading {
+  background: #F5A30E;
+  color: #fff;
+  text-shadow: 1px 1px 1px #888;
+}
 .contact-list .list-group-item {
   padding: 0;
-  white-space:nowrap;
+  white-space: nowrap;
   overflow: scroll;
 }
-
 .contact-list i {
   background: #444;
   width: 50px;
@@ -52,35 +68,38 @@ p {
   border-right: 1px solid #888;
   padding: 10px 10px 10px 10px;
 }
-
 .contact-label {
   margin-left: 5px;
   font-family: 'PT Sans';
-  font-size: 1.4vh;
+  font-size: 1.5em;
   line-height: 1.5;
 }
-
-
 /* MEDIA QUERIES */
-
 /* Extra-Small */
 @media (max-width: 767px) {
-  p {
-    font-size: 3.4vh;
-  }
+
 }
 
 /* Small */
 @media (min-width: 768px) and (max-width: 991px) {
-
+  .page-header {
+    background-image: none;
+  }
 }
 
 /* Medium */
 @media (min-width: 992px) and (max-width: 1199px) {
-
+  article {
+    font-size: 1.8em;
+  }
 }
 
 /* Large */
 @media (min-width: 1200px) {
-
+  h1 {
+    font-size: 5.5em;
+  }
+  article {
+    font-size: 1.8em;
+  }
 }

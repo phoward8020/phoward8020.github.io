@@ -51,11 +51,16 @@ mark {
 .contact-list {
   margin-top: 10%;
 }
-.contact-list .panel-heading {
+.contact-list .list-group-heading {
   background: #F5A30E;
   color: #222;
+  font-size: 1.4em;
   text-shadow: 1px 1px 3px #fff;
-  font-size: 20em;
+  padding: 20px;
+  line-height: 2.2;
+}
+a.list-group-item.list-group-heading:hover {
+  background: #F5A30E;
 }
 .contact-list .list-group-item {
   padding: 0;

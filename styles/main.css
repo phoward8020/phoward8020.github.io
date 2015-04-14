@@ -23,7 +23,7 @@ body {
   padding: 10% 0 4% 4%;
 }
 h1 {
-  font-family: 'Vollkorn';
+  font-family: 'Vollkorn', serif;
   font-size: 7vmax;
   margin-bottom: 0;
   color: #222;
@@ -32,7 +32,7 @@ h1 {
 article {
   margin-top: 5%;
   padding: 0 2% 0 2%;
-  font-family: 'Gentium Book Basic';
+  font-family: 'Gentium Book Basic', serif;
   font-size: 3.4vmax;
 }
 p {
@@ -71,7 +71,7 @@ mark {
 }
 .contact-label {
   margin-left: 10px;
-  font-family: 'Lato';
+  font-family: 'Lato', sans-serif;
   font-size: 1.5em;
   line-height: 1.5;
 }

@@ -1,6 +1,7 @@
-html body {
+html, body {
   height: 100%;
 }
+
 body {
   background: url('../images/brown-background.png');
   padding: 0;
@@ -8,7 +9,7 @@ body {
 }
 .container {
   background: url('../images/paper-pattern.png');
-  height: 100%;
+  min-height: 100%;
   overflow: auto;
   padding: 0 5%;
 }

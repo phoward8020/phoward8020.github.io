@@ -1,6 +1,6 @@
-/* html, body, .full-height {
+html body {
   height: 100%;
-} */
+}
 body {
   background: url('../images/brown-background.png');
   padding: 0;
